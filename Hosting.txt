@@ -1,0 +1,7 @@
+netsh wlan set hostednetwork mode=allow ssid=makama key=makama02 
+then= netsh wlan start hosted
+then= ipconfig
+then= netsh wlan stop hosted
+then= windows+r then ip adress
+ipconfig/all
+netstat
