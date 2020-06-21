@@ -1,0 +1,139 @@
+my first ever made program to  calculate the area of a triangle after several try(s)... ON 21st December, 2019
+ The Program
+
+print("A Program to calculate the area of a triangle")
+print("***now please enter the length and, breadth")
+length=input("enter length")
+breadth=input("enter breadth")
+length=int(length)
+breadth=int(breadth)
+if length > 0:
+    area=1/2*length*breadth
+    area=int(area)
+    print(area)
+else:
+    print("invalid input")
+if breadth > 0:
+    area=1/2*length*breadth
+    area=int(area)
+    print(area)
+else:
+    print("invalid input")
+ 
+
+	The Program(2)
+
+print("A Program to identify either a number is positive or negetive")
+print("   Now please enter a NUMBER")
+number=input("number: ")
+number=int(number)
+if number > 0:
+    print("The number is positive")
+    print("Positive numbers are > 0")
+else:
+    print("The number is negetive")
+    print("Negative numbers are < 0")
+print ("BYE")
+ 
+
+   The Program(3)
+
+
+print("A Program to find the value of Sin@,cos@ and tan@ in a triangle with a given lengths")
+print("    Please enter the values for opposite,hypothenus and adjacent")
+opposite=input("opposite=")
+hypothenus=input("hypothenus=")
+adjacent=input("adjacent=")
+opposite=int(opposite)
+hypothenus=int(hypothenus)
+adjacent=int(adjacent)
+if opposite >0.:
+    sine=opposite/hypothenus
+    cos=adjacent/hypothenus
+    tan=opposite/adjacent
+    sine=int(sine)
+    cos=int(cos)
+    tan=int(tan)
+    print("value for sin@ is")
+    print(sine)
+    print("the value for cos@ is")
+    print(cos)
+    print("the value for tan@ is")
+    print(tan)
+
+elif hypothenus > 0:
+    sine=opposite/hypothenus
+    cos=adjacent/hypothenus
+    tan=opposite/adjacent
+    sine=int(sine)
+    cos=int(cos)
+    tan=int(tan)
+    print("value for sin@ is")
+    print(sine)
+    print("the value for cos@ is")
+    print(cos)
+    print("the value for tan@ is")
+    print(tan)
+elif adjacent > 0:
+    sine=opposite/hypothenus
+    cos=adjacent/hypothenus
+    tan=opposite/adjacent
+    sine=int(sine)
+    cos=int(cos)
+    tan=int(tan)
+    print("value for sin@ is")
+    print(sine)
+    print("the value for cos@ is")
+    print(cos)
+    print("the value for tan@ is")
+    print(tan)
+else:
+    print("invalid input")
+
+LOOPS:
+i = 0
+while i < 8:
+    print("hello world!", i)
+    i+=1
+i = 8
+while i >0:
+    print("hello world!", i)
+    i-=1
+
+	The Program(4)
+
+print("DICTIONARY")
+a = 5
+while a!=0:
+    print("Enter Word")
+    d = {'database': 'database is an organized collection of related data', 'computer' : 'computer is an electronic device', 'magnet':'magnet is a piece of metal that attract small piece of metal towards it', 'mathematics':'maths is expression of numbers and variables','school':'school is a place where we learn','botany':'botany is the study of plants','zoology':'zoology is the study of animals'}
+    word = input()
+    word = str(word)
+    word = d.get(word)
+    print(word)
+    print('')
+    a = a + 1
+
+	The Program(5)
+
+print("A program to accept your first and second name")
+print("Enter your first name")
+name1 = input()
+print("Enter your second name")
+name2 = input()
+name1 , name2 = str(name1) , str(name2)
+name1 = len(name1)
+name2 = len(name2)
+if name1 > name2:
+    print("I love my first name")
+else:
+    print("I love my second name")
+    
+
+    
+    
+    
+    
+
+
+
